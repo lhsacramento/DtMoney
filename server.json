@@ -1,60 +1,20 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "description": "Desenvolvimento de site",
-      "price": 14000,
-      "type": "income",
+      "description": "Desenvolvimento de Site",
+      "price": 1500,
       "category": "Venda",
-      "createdAt": "2024-02-21T14:42:53.974Z"
+      "type": "income",
+      "createdAt": "2024-02-23T01:56:23.291Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "description": "Hamburguer",
+      "description": "Almoço de Segunda-Feira",
       "price": 50,
-      "type": "outcome",
-      "category": "Alimentação",
-      "createdAt": "2024-02-21T14:42:40.974Z"
-    },
-    {
-      "description": "desenvolvimento",
-      "price": 555,
-      "category": "Venda",
-      "type": "income",
-      "createdAt": "2024-02-22T21:02:18.289Z",
-      "id": 3
-    },
-    {
-      "description": "comida",
-      "price": 99,
       "category": "Alimentação",
       "type": "outcome",
-      "createdAt": "2024-02-22T21:03:27.095Z",
-      "id": 4
-    },
-    {
-      "description": "Açai",
-      "price": 15,
-      "category": "Alimentação",
-      "type": "outcome",
-      "createdAt": "2024-02-22T21:44:28.277Z",
-      "id": 5
-    },
-    {
-      "description": "cerveja",
-      "price": 11,
-      "category": "Alimentação",
-      "type": "outcome",
-      "createdAt": "2024-02-22T21:48:48.291Z",
-      "id": 6
-    },
-    {
-      "description": "Coquinha gelada",
-      "price": 12,
-      "category": "Bebida",
-      "type": "outcome",
-      "createdAt": "2024-02-22T21:49:27.219Z",
-      "id": 7
+      "createdAt": "2024-02-23T01:57:21.588Z",
+      "id": 2
     }
   ]
 }

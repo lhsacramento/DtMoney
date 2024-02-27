@@ -1,22 +1,17 @@
-import { useContext, useEffect, useState } from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { SearchForm } from "./components/SeachForm";
 import { PriceHighLight, TransactionsContainer, TransactionsTable } from "./syles";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
 import { dateFormatter, priceFormatter } from "../../utils/formater";
-
-interface Transaction{
-    id: number;
-    price: number;
-    type: 'income' | 'outcome';
-    description: string;
-    category: string;
-    createdAt: string;
-}
+import { useContextSelector } from "use-context-selector";
 
 export function Transactions(){
-    const {transactions} = useContext(TransactionsContext);
+    const transactions = useContextSelector(TransactionsContext, 
+        (context) => {
+            return context.transactions
+        }        
+    );
 
     return(
         <div>
